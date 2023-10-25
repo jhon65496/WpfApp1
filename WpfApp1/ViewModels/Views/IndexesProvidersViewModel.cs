@@ -51,7 +51,9 @@ namespace WpfApp1.ViewModels.Views
                 _IndexProvidersViewSource.Filter += OnIndexProvidersFilter3;
                 _IndexProvidersViewSource.View.Refresh(); // System.NullReferenceException: "Ссылка на объект не указывает на экземпляр объекта."
 
-                RaisePropertyChanged(nameof(IndexProvidersJoinView));
+                // RaisePropertyChanged(nameof(IndexProvidersJoinView));
+                // IndexProvidersView
+                RaisePropertyChanged(nameof(IndexProvidersView));
             }
         }
 

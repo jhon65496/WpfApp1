@@ -9,6 +9,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "090_Test", "090_Test", "{3E
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Filter", "Filter", "{D3358089-EB87-4A2F-B653-F995EC975C52}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NewFolder1", "NewFolder1", "{D148BF23-6F00-4AAA-A45F-B0DBA2949969}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +27,7 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D3358089-EB87-4A2F-B653-F995EC975C52} = {3E91CD3F-7D9B-4D1B-9AEB-85A5D2DBEC18}
+		{D148BF23-6F00-4AAA-A45F-B0DBA2949969} = {D3358089-EB87-4A2F-B653-F995EC975C52}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {12691335-C63B-40EF-8706-BB3422E9D675}
